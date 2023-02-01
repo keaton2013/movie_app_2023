@@ -10,10 +10,15 @@
 
 .movies .movie a {
     display: grid;
-    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-template-columns: minmax(400px, 1fr) 2fr;
     grid-gap: 20px;
-    text-decoration: underline/*none*/;
-    color: red/*inherit*/;
+    text-decoration: none;
+    color: inherit;
+}
+
+.movies .movie a:hover {
+    text-decoration: underline;
+    color: red;
 }
 
 .movies img {
@@ -33,7 +38,7 @@
 
 .movie .movie__title {
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: blueviolet;
 }
